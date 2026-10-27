@@ -54,6 +54,20 @@ Export Model Artifact (model/churn_model.pkl for dashboard serving)
   2. `Tenure` (Higher tenure strongly protects against churn)
   3. `TotalCharges` & `MonthlyCharges` (Higher pricing without bundled perks drives disengagement)
 
+## Model Diagnostics & Explainability Visualizations
+
+### 1. ROC-AUC Performance Comparison
+![ROC Curve](outputs/charts/roc_curve.png)
+
+### 2. Confusion Matrix (Test Split)
+![Confusion Matrix](outputs/charts/confusion_matrix.png)
+
+### 3. SHAP Summary Plot (Feature Attribution)
+![SHAP Summary](outputs/charts/shap_summary.png)
+
+### 4. Mean |SHAP Value| Feature Ranking
+![SHAP Feature Importance](outputs/charts/shap_bar_importance.png)
+
 ## Project Structure
 
 ```
